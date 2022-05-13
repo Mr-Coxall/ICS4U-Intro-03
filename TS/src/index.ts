@@ -1,5 +1,14 @@
+/**
+ * Log function.
+ * @constructor
+ * @param {string} message - The message.
+ */
+function log(someMessage) {
+    console.log(someMessage)
+
+    return 1
+}
+
 let message: string = 'Hello, World!'
-
-console.log(message)
-
+let returnValue = log(message)
 console.log("\nDone.")
